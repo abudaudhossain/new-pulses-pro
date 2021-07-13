@@ -240,3 +240,37 @@ p{
 .most-banner h1{
     font-size: 2em;
 }
+.most-read-news{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    gap: 30px;
+  
+}
+.top-read-news{
+    position: relative;
+    top: -40px;
+}
+.read-news{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-top: 20px;
+}
+/* Entertainment news style  */
+.entertainment{
+    flex-direction: column;
+}
+.entertainment .blog-img{
+    width: 100%;
+}
+.entertainment .blog-info{
+    border: none;
+}
+
+/*========== footer style ===== */
+footer {
+display: grid;
+grid-template-columns:  2fr 1fr 1fr 1.3fr;
+gap: 30px;
+padding: 50px;   
+}
