@@ -121,3 +121,78 @@ nav ul li a{
     height: 60px;
     flex-basis: 100px;
 }
+
+/* ========== contact style  ================= */
+.contact{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.flex-item{
+    background: #f1f3f4;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.contact .podcast .topic{
+    align-items: center;
+}
+.contact .podcast .topic .topic-img{
+   flex-basis: 80px;
+}
+.input-area{
+    padding-top: 30px;
+}
+.subscribe input{
+    width: 60%;
+    height: 23px;
+    padding: 5px;
+    border: none;
+    font-size: 1em;
+}
+button{
+    height: 34px;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    background: #6b468d;
+    border: none;
+    margin-left: -4px;
+}
+.connects ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 30px;
+}
+.connects ul li{
+    padding: 10px;
+    text-align: center;
+   
+}
+.connects ul li.facebook{
+    background-color: rgb(47, 47, 145);
+}
+.connects ul li.twitter{
+    background-color: rgb(26, 134, 235);
+}
+.connects ul li.youtube{
+    background-color: #c41c1c;
+}
+.connects ul li .icon{
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    display: inline-block
+    
+}
+.connects ul li h5,
+p{
+    color: #fff;
+}
+.connects ul li p{
+    font-size: 0.7em;
+}
