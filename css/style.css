@@ -227,3 +227,16 @@ p{
 .politics{
     padding-top:15px;
 }
+
+/* ===== style most read === */
+.most-banner{
+    width: 90%;
+    height: 100px;
+    background: #343461;
+    color: #f1f3f4;
+    padding: 30px;
+    margin: 0 auto;
+}
+.most-banner h1{
+    font-size: 2em;
+}
