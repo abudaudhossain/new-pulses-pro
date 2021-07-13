@@ -1,22 +1,66 @@
+:root{
+    --pramry-color: #5e6282;
+    --active-color: #4430f7;
+    --headding-color: #14183e;
+    --titile-color: #080809;
+    /* ; */
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 /* ========common style ======= */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container {
     width: 90%;
     margin: 0 auto;
 }
-
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.banner,
+nav{
+    margin: 30px;
+}
 /* ------------- style header  -------------- */
 
-
+/* --- style banner ------ */
 .banner{
-    margin-top: 20px;
+   
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 .paper-titlie{
     text-align: center;
+}
+
+ /* ------ style nav ------ */
+
+nav{
+   border-top: 2px solid var(--pramry-color);
+   border-bottom: 2px solid var(--pramry-color);
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    padding: 5px;
+    
+}
+nav ul li .active{
+    color: var(--active-color);
+}
+nav ul li a{
+    color: var(--titile-color);
+    padding: 5px 5px;
+    font-weight: 600;
+    display: inline-block;
 }
