@@ -69,7 +69,25 @@ figcaption{
 .paper-titlie{
     text-align: center;
 }
-
+.s_m_icon a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: var(--pramry-color);
+    padding: 10px;
+    color: #ddd5e6;
+    border-radius: 50%;
+    margin: 5px;
+    float: left;
+    width:40px;
+    height:40px;
+    box-sizing: border-box;
+}
+  
+  
+    
+}
  /* ------ style nav ------ */
 
 nav{
@@ -273,4 +291,21 @@ display: grid;
 grid-template-columns:  2fr 1fr 1fr 1.3fr;
 gap: 30px;
 padding: 50px;   
+}
+
+footer{
+    margin-top: 30px;
+    background-color: var(--pramry-color);
+}
+footer .title{
+    color:#f0c91a;
+    padding-bottom: 30px;
+}
+footer p{
+    font-size: 12px;
+color: darkgrey;
+}
+footer .heading{
+    color: #e5e9eb;
+    padding: 5px 0;
 }
